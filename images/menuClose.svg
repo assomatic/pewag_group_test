@@ -1,0 +1,9 @@
+
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MenuCloseButton" fill="#01960D">
+            <path d="M12.7279221,-3.27207794 C13.8324916,-3.27207794 14.7279221,-2.37664744 14.7279221,-1.27207794 L14.7279221,26.7279221 C14.7279221,27.8324916 13.8324916,28.7279221 12.7279221,28.7279221 C11.6233526,28.7279221 10.7279221,27.8324916 10.7279221,26.7279221 L10.7279221,12.2555968 L10.7279221,12.2555968 L10.7279221,-1.27207794 C10.7279221,-2.37664744 11.6233526,-3.27207794 12.7279221,-3.27207794 Z" id="Rectangle" transform="translate(12.727922, 12.727922) rotate(-315.000000) translate(-12.727922, -12.727922) "></path>
+            <rect id="Rectangle-Copy-7" transform="translate(12.727922, 12.727922) scale(-1, 1) rotate(-315.000000) translate(-12.727922, -12.727922) " x="10.7279221" y="-3.27207794" width="4" height="32" rx="2"></rect>
+        </g>
+    </g>
+</svg>

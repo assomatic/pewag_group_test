@@ -24,13 +24,13 @@ sidebar.innerHTML = sublinks
     const { links, page } = item;
     return `
     <article>
-      <h4>${page}</h4>
+      <h4 class="menu-header">${page}</h4>
       <div class="sidebar-sublinks">
       ${links
         .map((link) => {
           return `
             <a href="${link.url}">
-              <i class="${link.icon}"></i>${link.label}
+              <img src="${link.icon}" class="menu-icons" alt="icon"> ${link.label}
             </a>`;
         })
         .join('')}
@@ -55,24 +55,24 @@ linksBtns.forEach((btn) => {
       submenu.style.left = `${center}px`;
       submenu.style.top = `${bottom}px`;
 
-      //todo OPTIONAL
+      //todo OPTIONAL define colums
       let columns = 'col-2';
       if (links.length === 3) {
         columns = 'col-3';
       }
-      if (links.length > 3) {
-        columns = 'col-4';
-      }
+      // if (links.length > 3) {
+      //   columns = 'col-4';
+      // }
 
       submenu.innerHTML = `
       <section>
-        <h4>${page}</h4>
+        <h4 class="menu-header">${page}</h4>
         <div class="submenu-center ${columns}">
           ${links
             .map((link) => {
               return `
               <a href="${link.url}">
-                <i class="${link.icon}"></i>${link.label}
+                <img src="${link.icon}" class="menu-icons" alt="icon"> ${link.label}
               </a>`;
             })
             .join('')}

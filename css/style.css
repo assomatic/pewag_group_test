@@ -172,9 +172,7 @@ p {
 }
 .nav-links {
   display: none;
-}
-.signin-btn {
-  display: none;
+  align-items: flex-end;
 }
 .hero::before {
   content: '';
@@ -439,9 +437,22 @@ p {
 }
 
 .menu-icons {
-  width: 12px;
+  width: 13px;
   color: var(--secondary600);
 }
 .menu-header {
   color: var(--black);
+}
+
+/*bug two color icons
+.primary {
+  fill: var(--secondary500);
+}
+
+.secondary {
+  fill: var(--secondary600);
+} */
+
+svg {
+  fill: rebeccapurple;
 }

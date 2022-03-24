@@ -444,14 +444,7 @@ p {
   color: var(--black);
 }
 
-/*bug two color icons
-.primary {
-  fill: var(--secondary500);
-}
-
-.secondary {
-  fill: var(--secondary600);
-} */
+/*bug color icons
 
 svg {
   fill: rebeccapurple;

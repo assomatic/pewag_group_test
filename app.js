@@ -30,7 +30,7 @@ sidebar.innerHTML = sublinks
         .map((link) => {
           return `
             <a href="${link.url}">
-              <img src="${link.icon}" class="menu-icons" alt="icon"> ${link.label}
+              ${link.icon} ${link.label}
             </a>`;
         })
         .join('')}
@@ -72,7 +72,7 @@ linksBtns.forEach((btn) => {
             .map((link) => {
               return `
               <a href="${link.url}">
-                <img src="${link.icon}" class="menu-icons" alt="icon"> ${link.label}
+                ${link.icon} ${link.label}
               </a>`;
             })
             .join('')}
